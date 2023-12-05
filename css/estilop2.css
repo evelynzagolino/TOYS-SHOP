@@ -1,0 +1,105 @@
+.topo{
+	width:100%;
+	height:13vh;
+	background-color:#D3D3D3;
+	display: flex;
+	justify-content:end;
+}
+.topo img{
+	width:13% ;
+ 	height:10vh ;
+ 	margin-right:160vh;
+ 	margin-top: 1vh;
+}
+.poti{
+	width:10%;
+	height:4vh;
+	margin:2vh;
+}
+.poli a:hover{
+	color:#000000;
+}
+.poli a{
+	text-decoration: none;
+	color:#20B2AA; 
+	width: 100%;
+	height: 100%;
+}
+.poli span{
+	color:#20B2AA;
+	margin-left: 1vh;
+	margin-right: 1vh;
+}
+.topo2{
+	width:100%;
+	height:25vh;
+	background-color:#48D1CC;
+
+}
+.todo{
+	width:100%;
+	height:65vh;
+	background-color:#D3D3D3;
+	display: flex;
+	flex-direction: row;
+}
+.banner-longo{
+	width:25%;
+	height:95%;
+	margin:1vh;
+	border: solid 4px #48D1CC;
+}
+.banner-longo img{
+	width:100%;
+	height:100%;
+}
+.primeiro{
+	width:48%;
+	height:95%;
+	margin: 2vh;
+	border: solid 4px #48D1CC;
+}
+.segundo{
+	width:48%;
+	height:95%;
+	margin:2vh;
+	border: solid 4px #48D1CC;
+}
+.rodape{
+	width:100%;
+	height:30vh;
+	background-color:#48D1CC;
+	flex-direction: row;
+	display: flex;
+	margin-top: 2vh;
+	justify-content: space-between;
+	align-items: center;
+}
+.logope{
+	width:30%;
+	height:20vh;
+	margin:2vh;
+}
+.logope img{
+	width: 100%;
+	height: 100%;
+}
+.ladodireito{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: flex-end;
+}
+.ladodireito p{
+	color:#FFFFFF ;
+}
+.baixo{
+	display: flex;
+	flex-direction: column;
+}
+
+@media (max-width: 760px){
+	.banner-longo{
+		display: none;
+	}
+}
